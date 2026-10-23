@@ -12,7 +12,7 @@
 <meta property="og:url" content="https://xasi88.github.io/katalog-tehniki/">
 <meta property="og:image" content="https://xasi88.github.io/katalog-tehniki/img/avtor-og.jpg">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Хаси Абдуллах: техника Apple", "url": "https://xasi88.github.io/katalog-tehniki/", "telephone": "+7 965 969-60-53", "areaServed": ["Грозный", "Чеченская Республика"]}</script>
-<!-- МЕТРИКА --><script>(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();for(var j=0;j<document.scripts.length;j++){if(document.scripts[j].src===r){return;}}k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})(window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");ym(113761734,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true,webvisor:true});</script><noscript><div><img src="https://mc.yandex.ru/watch/113761734" style="position:absolute;left:-9999px" alt=""></div></noscript><!-- /МЕТРИКА -->
+<!-- МЕТРИКА --><script>window.dataLayer=window.dataLayer||[];(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();for(var j=0;j<document.scripts.length;j++){if(document.scripts[j].src===r){return;}}k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})(window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");ym(113761734,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true,webvisor:true,ecommerce:"dataLayer"});</script><noscript><div><img src="https://mc.yandex.ru/watch/113761734" style="position:absolute;left:-9999px" alt=""></div></noscript><!-- /МЕТРИКА -->
 <meta name="theme-color" content="#070b1f">
 <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
 <link rel="preload" href="fonts/manrope.woff2" as="font" type="font/woff2" crossorigin>
@@ -342,6 +342,31 @@ h2 { margin: 0; font: 800 clamp(1.6rem, 1.2rem + 1.6vw, 2.4rem)/1.1 var(--displa
   var WA = '79659696053';
   var K = window.KATALOG || { data: '', tovary: [] };
   var STR = window.STRANICY || {};
+
+  // Статистика в Яндекс Метрике: товары (электронная коммерция), цели и параметры визитов.
+  // Тот же счёт на страницах моделей: собрать-страницы.py, функция schet.
+  var YM = 113761734;
+  function ym2() { if (window.ym) window.ym.apply(window, [YM].concat([].slice.call(arguments))); }
+  function ecom(dejstvie, spisok) {
+    var e = { currencyCode: 'RUB' };
+    e[dejstvie] = dejstvie === 'impressions' ? spisok : { products: spisok };
+    (window.dataLayer = window.dataLayer || []).push({ ecommerce: e });
+  }
+  function versiya(v) { return [v.remeshok || v.cvet, v.strana, v.sim].filter(Boolean).join(', '); }
+  function tovar(t, v) {
+    var p = { id: t.model + (t.konf ? ' ' + t.konf : '') + (t.cpo ? ' CPO' : ''), name: t.model + (t.konf ? ', ' + t.konf : ''), brand: 'Apple', category: t.kat };
+    if (v) { p.variant = versiya(v); p.price = v.cena; }
+    else p.price = Math.min.apply(null, t.var.map(function (x) { return x.cena; }));
+    return p;
+  }
+  function param(gruppa, kluch, znachenie) { var o = {}; o[gruppa] = {}; o[gruppa][kluch] = znachenie; ym2('params', o); }
+  function zakaz(t, v) {
+    var p = tovar(t, v);
+    p.quantity = 1;
+    ecom('add', [p]);
+    ym2('reachGoal', 'zakaz', { model: p.name, versiya: p.variant, cena: p.price });
+    param('Заказ в WhatsApp', p.name, p.variant);
+  }
   var SIM = { 'eSIM': 'Только eSIM, без SIM-карты', '1 SIM + eSIM': '1 SIM-карта + eSIM', '2 SIM': '2 SIM-карты' };
   // Слова для поиска по-русски
   var SLOVA = { phone: 'айфон телефон смартфон', mac: 'макбук ноутбук мак', ipad: 'айпад планшет', watch: 'часы вотч эпл вотч',
@@ -394,6 +419,8 @@ h2 { margin: 0; font: 800 clamp(1.6rem, 1.2rem + 1.6vw, 2.4rem)/1.1 var(--displa
   function kartochka(t) {
     var li = document.createElement('li');
     li.className = 'card pre';
+    li._tovar = t;
+    li._v = 0;
     var p = podpisi(t);
     var odin = t.var.length === 1;
     var vars = '';
@@ -414,6 +441,13 @@ h2 { margin: 0; font: 800 clamp(1.6rem, 1.2rem + 1.6vw, 2.4rem)/1.1 var(--displa
 
     function vybrat(i, anim) {
       var v = t.var[i];
+      li._v = i;
+      if (anim) {
+        // Человек сам выбрал цвет или версию
+        ecom('detail', [tovar(t, v)]);
+        ym2('reachGoal', 'vybor_cveta');
+        param('Выбор цвета', tovar(t).name, versiya(v));
+      }
       li.querySelector('.pic').style.setProperty('--c', v.hex);
       li.querySelector('.det').innerHTML = detali(t, v);
       var pr = li.querySelector('.price');
@@ -427,6 +461,8 @@ h2 { margin: 0; font: 800 clamp(1.6rem, 1.2rem + 1.6vw, 2.4rem)/1.1 var(--displa
     li.addEventListener('click', function (e) {
       var b = e.target.closest('.var');
       if (b) vybrat(+b.dataset.i, true);
+      if (e.target.closest('h3 a')) { ecom('click', [tovar(t)]); param('Открыли модель', t.model, t.konf || '-'); }
+      if (e.target.closest('.buy .btn')) zakaz(t, t.var[li._v]);
     });
     vybrat(0, false);
     return li;
@@ -453,6 +489,7 @@ h2 { margin: 0; font: 800 clamp(1.6rem, 1.2rem + 1.6vw, 2.4rem)/1.1 var(--displa
     b.innerHTML = esc(v) + ' <small>' + n + '</small>';
     b.addEventListener('click', function () {
       vybor = v;
+      ym2('params', { 'Раздел каталога': v });
       chips.querySelectorAll('.chip').forEach(function (c) { c.setAttribute('aria-pressed', String(c === b)); });
       pokazat();
     });
@@ -460,7 +497,15 @@ h2 { margin: 0; font: 800 clamp(1.6rem, 1.2rem + 1.6vw, 2.4rem)/1.1 var(--displa
   });
 
   var nabl = 'IntersectionObserver' in window ? new IntersectionObserver(function (es) {
-    es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.remove('pre'); nabl.unobserve(e.target); } });
+    es.forEach(function (e) {
+      if (!e.isIntersecting) return;
+      e.target.classList.remove('pre');
+      nabl.unobserve(e.target);
+      // Карточку увидели в каталоге
+      var p = tovar(e.target._tovar);
+      p.list = vybor === 'Все' ? 'Каталог' : 'Каталог: ' + vybor;
+      ecom('impressions', [p]);
+    });
   }, { rootMargin: '0px 0px -40px 0px' }) : null;
 
   function pokazat() {
@@ -482,7 +527,16 @@ h2 { margin: 0; font: 800 clamp(1.6rem, 1.2rem + 1.6vw, 2.4rem)/1.1 var(--displa
       if (nabl) nabl.observe(c); else c.classList.remove('pre');
     });
   }
-  poisk.addEventListener('input', pokazat);
+  // Что ищут: запрос уходит в Метрику, когда человек 1,5 с не печатает
+  var poiskT, poiskBylo = '';
+  poisk.addEventListener('input', function () {
+    pokazat();
+    clearTimeout(poiskT);
+    poiskT = setTimeout(function () {
+      var s = poisk.value.trim().toLowerCase();
+      if (s.length > 1 && s !== poiskBylo) { poiskBylo = s; ym2('params', { 'Поиск в каталоге': s }); }
+    }, 1500);
+  });
 
   var vsego = K.tovary.reduce(function (s, t) { return s + t.var.length; }, 0);
   document.getElementById('vsego').textContent = vsego;
