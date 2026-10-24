@@ -1,5 +1,5 @@
 # Техника Apple в наличии
 
-Сайт: https://xasi88.github.io/katalog-tehniki/
+Сайт: https://katalog.xasi88.ru/
 
 Эту страницу выкладывает скрипт из закрытого проекта. Здесь её не править.
