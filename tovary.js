@@ -1129,8 +1129,7 @@ window.KATALOG = {
    "var": [
     {
      "cena": 24200,
-     "hex": "#f4f4f2",
-     "foto": "https://images.ctfassets.net/rbzqg6pelgqa/5v0wxkkUugMG4xBsdx5mSJ/820386e4c88dea4182e204a278bce488/Peak__3_.png?w=400"
+     "hex": "#f4f4f2"
     }
    ]
   },
