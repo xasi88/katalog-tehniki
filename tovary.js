@@ -1,61 +1,59 @@
 // Собрано скриптом обновить-цены.py из прайс.txt. Здесь не править.
 window.KATALOG = {
- "data": "23 октября 2026",
+ "data": "24 октября 2026",
  "tovary": [
   {
    "kat": "iPhone",
    "ikon": "phone",
-   "model": "iPhone 17 Pro Max",
+   "model": "iPhone 18 Pro Max",
+   "brend": "Apple",
    "konf": "2 ТБ",
    "cpo": "",
    "var": [
     {
-     "cena": 157000,
-     "cvet": "Серебристый",
-     "hex": "#e2e4e7",
-     "en": "Silver",
-     "strana": "Япония",
-     "sim": "eSIM"
+     "cena": 278300,
+     "cvet": "Бордовый",
+     "hex": "#6b1f2e",
+     "en": "Burgundy",
+     "sim": "1 SIM + eSIM",
+     "pometka": "активирован"
     },
     {
-     "cena": 156000,
-     "cvet": "Оранжевый",
-     "hex": "#ee7d33",
-     "en": "Orange",
-     "strana": "Япония",
-     "sim": "eSIM"
+     "cena": 278300,
+     "cvet": "Чёрный",
+     "hex": "#2b2b2d",
+     "en": "Black",
+     "sim": "1 SIM + eSIM"
+    },
+    {
+     "cena": 278300,
+     "cvet": "Ледниковый",
+     "hex": "#cfe0ea",
+     "en": "Glacier",
+     "sim": "1 SIM + eSIM"
     }
    ]
   },
   {
    "kat": "iPhone",
    "ikon": "phone",
-   "model": "iPhone 17 Pro Max",
+   "model": "iPhone 18 Pro Max",
+   "brend": "Apple",
    "konf": "1 ТБ",
    "cpo": "",
    "var": [
     {
-     "cena": 136000,
-     "cvet": "Тёмно-синий",
-     "hex": "#2f3c5c",
-     "en": "Blue",
-     "strana": "Япония",
-     "sim": "eSIM"
+     "cena": 206900,
+     "cvet": "Чёрный",
+     "hex": "#2b2b2d",
+     "en": "Black",
+     "sim": "1 SIM + eSIM"
     },
     {
-     "cena": 136000,
-     "cvet": "Серебристый",
-     "hex": "#e2e4e7",
-     "en": "Silver",
-     "strana": "Япония",
-     "sim": "eSIM"
-    },
-    {
-     "cena": 150700,
-     "cvet": "Тёмно-синий",
-     "hex": "#2f3c5c",
-     "en": "Blue",
-     "strana": "Гонконг",
+     "cena": 215300,
+     "cvet": "Бордовый",
+     "hex": "#6b1f2e",
+     "en": "Burgundy",
      "sim": "1 SIM + eSIM"
     }
    ]
@@ -63,90 +61,330 @@ window.KATALOG = {
   {
    "kat": "iPhone",
    "ikon": "phone",
-   "model": "iPhone 17 Pro Max",
-   "konf": "256 ГБ",
-   "cpo": "",
-   "var": [
-    {
-     "cena": 112900,
-     "cvet": "Тёмно-синий",
-     "hex": "#2f3c5c",
-     "en": "Blue",
-     "strana": "Гонконг",
-     "sim": "1 SIM + eSIM"
-    },
-    {
-     "cena": 110200,
-     "cvet": "Оранжевый",
-     "hex": "#ee7d33",
-     "en": "Orange",
-     "strana": "Гонконг",
-     "sim": "1 SIM + eSIM"
-    }
-   ]
-  },
-  {
-   "kat": "iPhone",
-   "ikon": "phone",
-   "model": "iPhone 17 Pro",
-   "konf": "1 ТБ",
-   "cpo": "",
-   "var": [
-    {
-     "cena": 128000,
-     "cvet": "Оранжевый",
-     "hex": "#ee7d33",
-     "en": "Orange",
-     "strana": "Япония",
-     "sim": "eSIM"
-    },
-    {
-     "cena": 138100,
-     "cvet": "Тёмно-синий",
-     "hex": "#2f3c5c",
-     "en": "Blue",
-     "strana": "Гонконг",
-     "sim": "1 SIM + eSIM"
-    },
-    {
-     "cena": 138100,
-     "cvet": "Серебристый",
-     "hex": "#e2e4e7",
-     "en": "Silver",
-     "strana": "Гонконг",
-     "sim": "1 SIM + eSIM"
-    }
-   ]
-  },
-  {
-   "kat": "iPhone",
-   "ikon": "phone",
-   "model": "iPhone 17 Pro",
+   "model": "iPhone 18 Pro Max",
+   "brend": "Apple",
    "konf": "512 ГБ",
    "cpo": "",
    "var": [
     {
-     "cena": 108700,
-     "cvet": "Оранжевый",
-     "hex": "#ee7d33",
-     "en": "Orange",
-     "strana": "Япония",
-     "sim": "eSIM"
+     "cena": 157500,
+     "cvet": "Чёрный",
+     "hex": "#2b2b2d",
+     "en": "Black",
+     "sim": "1 SIM + eSIM",
+     "pometka": "активирован"
     },
     {
-     "cena": 118600,
-     "cvet": "Тёмно-синий",
-     "hex": "#2f3c5c",
-     "en": "Blue",
-     "strana": "Гонконг",
+     "cena": 157500,
+     "cvet": "Чёрный",
+     "hex": "#2b2b2d",
+     "en": "Black",
      "sim": "1 SIM + eSIM"
     },
     {
-     "cena": 118600,
+     "cena": 152300,
+     "cvet": "Чёрный",
+     "hex": "#2b2b2d",
+     "en": "Black",
+     "sim": "eSIM"
+    },
+    {
+     "cena": 154400,
+     "cvet": "Ледниковый",
+     "hex": "#cfe0ea",
+     "en": "Glacier",
+     "sim": "1 SIM + eSIM",
+     "pometka": "активирован"
+    },
+    {
+     "cena": 159600,
+     "cvet": "Ледниковый",
+     "hex": "#cfe0ea",
+     "en": "Glacier",
+     "sim": "1 SIM + eSIM"
+    }
+   ]
+  },
+  {
+   "kat": "iPhone",
+   "ikon": "phone",
+   "model": "iPhone 18 Pro Max",
+   "brend": "Apple",
+   "konf": "256 ГБ",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 133400,
+     "cvet": "Чёрный",
+     "hex": "#2b2b2d",
+     "en": "Black",
+     "sim": "1 SIM + eSIM"
+    },
+    {
+     "cena": 132300,
+     "cvet": "Чёрный",
+     "hex": "#2b2b2d",
+     "en": "Black",
+     "sim": "eSIM"
+    },
+    {
+     "cena": 135500,
+     "cvet": "Ледниковый",
+     "hex": "#cfe0ea",
+     "en": "Glacier",
+     "sim": "1 SIM + eSIM"
+    },
+    {
+     "cena": 138600,
+     "cvet": "Бордовый",
+     "hex": "#6b1f2e",
+     "en": "Burgundy",
+     "sim": "eSIM"
+    }
+   ]
+  },
+  {
+   "kat": "iPhone",
+   "ikon": "phone",
+   "model": "iPhone 18 Pro",
+   "brend": "Apple",
+   "konf": "2 ТБ",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 236300,
+     "cvet": "Чёрный",
+     "hex": "#2b2b2d",
+     "en": "Black",
+     "sim": "1 SIM + eSIM",
+     "pometka": "активирован"
+    },
+    {
+     "cena": 241500,
+     "cvet": "Бордовый",
+     "hex": "#6b1f2e",
+     "en": "Burgundy",
+     "sim": "1 SIM + eSIM",
+     "pometka": "активирован"
+    }
+   ]
+  },
+  {
+   "kat": "iPhone",
+   "ikon": "phone",
+   "model": "iPhone 18 Pro",
+   "brend": "Apple",
+   "konf": "1 ТБ",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 206900,
+     "cvet": "Бордовый",
+     "hex": "#6b1f2e",
+     "en": "Burgundy",
+     "sim": "1 SIM + eSIM"
+    },
+    {
+     "cena": 204800,
+     "cvet": "Чёрный",
+     "hex": "#2b2b2d",
+     "en": "Black",
+     "sim": "1 SIM + eSIM"
+    }
+   ]
+  },
+  {
+   "kat": "iPhone",
+   "ikon": "phone",
+   "model": "iPhone 18 Pro",
+   "brend": "Apple",
+   "konf": "512 ГБ",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 138600,
+     "cvet": "Чёрный",
+     "hex": "#2b2b2d",
+     "en": "Black",
+     "sim": "eSIM"
+    },
+    {
+     "cena": 142800,
+     "cvet": "Ледниковый",
+     "hex": "#cfe0ea",
+     "en": "Glacier",
+     "sim": "1 SIM + eSIM"
+    },
+    {
+     "cena": 138600,
+     "cvet": "Ледниковый",
+     "hex": "#cfe0ea",
+     "en": "Glacier",
+     "sim": "eSIM"
+    },
+    {
+     "cena": 147000,
+     "cvet": "Бордовый",
+     "hex": "#6b1f2e",
+     "en": "Burgundy",
+     "sim": "1 SIM + eSIM"
+    },
+    {
+     "cena": 138600,
+     "cvet": "Бордовый",
+     "hex": "#6b1f2e",
+     "en": "Burgundy",
+     "sim": "eSIM"
+    }
+   ]
+  },
+  {
+   "kat": "iPhone",
+   "ikon": "phone",
+   "model": "iPhone 18 Pro",
+   "brend": "Apple",
+   "konf": "256 ГБ",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 121800,
+     "cvet": "Бордовый",
+     "hex": "#6b1f2e",
+     "en": "Burgundy",
+     "sim": "eSIM"
+    },
+    {
+     "cena": 120800,
+     "cvet": "Ледниковый",
+     "hex": "#cfe0ea",
+     "en": "Glacier",
+     "sim": "1 SIM + eSIM"
+    },
+    {
+     "cena": 120800,
+     "cvet": "Чёрный",
+     "hex": "#2b2b2d",
+     "en": "Black",
+     "sim": "1 SIM + eSIM"
+    }
+   ]
+  },
+  {
+   "kat": "iPhone",
+   "ikon": "phone",
+   "model": "iPhone 17 Pro Max",
+   "brend": "Apple",
+   "konf": "2 ТБ",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 189000,
      "cvet": "Серебристый",
      "hex": "#e2e4e7",
      "en": "Silver",
-     "strana": "Гонконг",
+     "strana": "Корея",
+     "sim": "1 SIM + eSIM"
+    }
+   ]
+  },
+  {
+   "kat": "iPhone",
+   "ikon": "phone",
+   "model": "iPhone 17 Pro Max",
+   "brend": "Apple",
+   "konf": "1 ТБ",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 136500,
+     "cvet": "Оранжевый",
+     "hex": "#ee7d33",
+     "en": "Orange",
+     "strana": "Корея",
+     "sim": "eSIM"
+    }
+   ]
+  },
+  {
+   "kat": "iPhone",
+   "ikon": "phone",
+   "model": "iPhone 17 Pro Max",
+   "brend": "Apple",
+   "konf": "512 ГБ",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 136500,
+     "cvet": "Тёмно-синий",
+     "hex": "#2f3c5c",
+     "en": "Blue",
+     "strana": "Корея",
+     "sim": "1 SIM + eSIM"
+    },
+    {
+     "cena": 121800,
+     "cvet": "Тёмно-синий",
+     "hex": "#2f3c5c",
+     "en": "Blue",
+     "strana": "Корея",
+     "sim": "eSIM"
+    },
+    {
+     "cena": 142800,
+     "cvet": "Серебристый",
+     "hex": "#e2e4e7",
+     "en": "Silver",
+     "strana": "Корея",
+     "sim": "1 SIM + eSIM"
+    },
+    {
+     "cena": 131300,
+     "cvet": "Оранжевый",
+     "hex": "#ee7d33",
+     "en": "Orange",
+     "strana": "Корея",
+     "sim": "1 SIM + eSIM"
+    }
+   ]
+  },
+  {
+   "kat": "iPhone",
+   "ikon": "phone",
+   "model": "iPhone 17 Pro Max",
+   "brend": "Apple",
+   "konf": "256 ГБ",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 112400,
+     "cvet": "Тёмно-синий",
+     "hex": "#2f3c5c",
+     "en": "Blue",
+     "strana": "Корея",
+     "sim": "1 SIM + eSIM"
+    },
+    {
+     "cena": 118200,
+     "cvet": "Серебристый",
+     "hex": "#e2e4e7",
+     "en": "Silver",
+     "strana": "Корея",
+     "sim": "1 SIM + eSIM"
+    },
+    {
+     "cena": 108200,
+     "cvet": "Серебристый",
+     "hex": "#e2e4e7",
+     "en": "Silver",
+     "strana": "Корея",
+     "sim": "eSIM"
+    },
+    {
+     "cena": 113400,
+     "cvet": "Оранжевый",
+     "hex": "#ee7d33",
+     "en": "Orange",
+     "strana": "Корея",
      "sim": "1 SIM + eSIM"
     }
    ]
@@ -155,16 +393,83 @@ window.KATALOG = {
    "kat": "iPhone",
    "ikon": "phone",
    "model": "iPhone 17 Pro",
+   "brend": "Apple",
+   "konf": "512 ГБ",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 118700,
+     "cvet": "Оранжевый",
+     "hex": "#ee7d33",
+     "en": "Orange",
+     "strana": "Корея",
+     "sim": "1 SIM + eSIM"
+    },
+    {
+     "cena": 109200,
+     "cvet": "Оранжевый",
+     "hex": "#ee7d33",
+     "en": "Orange",
+     "strana": "Корея",
+     "sim": "eSIM"
+    },
+    {
+     "cena": 119700,
+     "cvet": "Тёмно-синий",
+     "hex": "#2f3c5c",
+     "en": "Blue",
+     "strana": "Корея",
+     "sim": "eSIM"
+    },
+    {
+     "cena": 127100,
+     "cvet": "Тёмно-синий",
+     "hex": "#2f3c5c",
+     "en": "Blue",
+     "strana": "Корея",
+     "sim": "1 SIM + eSIM"
+    },
+    {
+     "cena": 132300,
+     "cvet": "Серебристый",
+     "hex": "#e2e4e7",
+     "en": "Silver",
+     "strana": "Корея",
+     "sim": "1 SIM + eSIM"
+    }
+   ]
+  },
+  {
+   "kat": "iPhone",
+   "ikon": "phone",
+   "model": "iPhone 17 Pro",
+   "brend": "Apple",
    "konf": "256 ГБ",
    "cpo": "",
    "var": [
     {
-     "cena": 102400,
+     "cena": 106100,
      "cvet": "Тёмно-синий",
      "hex": "#2f3c5c",
      "en": "Blue",
-     "strana": "Гонконг",
+     "strana": "Корея",
      "sim": "1 SIM + eSIM"
+    },
+    {
+     "cena": 107700,
+     "cvet": "Серебристый",
+     "hex": "#e2e4e7",
+     "en": "Silver",
+     "strana": "Корея",
+     "sim": "1 SIM + eSIM"
+    },
+    {
+     "cena": 100800,
+     "cvet": "Серебристый",
+     "hex": "#e2e4e7",
+     "en": "Silver",
+     "strana": "Корея",
+     "sim": "eSIM"
     }
    ]
   },
@@ -172,31 +477,39 @@ window.KATALOG = {
    "kat": "iPhone",
    "ikon": "phone",
    "model": "iPhone Air",
+   "brend": "Apple",
+   "konf": "512 ГБ",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 89300,
+     "cvet": "Чёрный",
+     "hex": "#2b2b2d",
+     "en": "Black",
+     "sim": "eSIM"
+    }
+   ]
+  },
+  {
+   "kat": "iPhone",
+   "ikon": "phone",
+   "model": "iPhone Air",
+   "brend": "Apple",
    "konf": "256 ГБ",
    "cpo": "",
    "var": [
     {
-     "cena": 74100,
-     "cvet": "Небесно-голубой",
-     "hex": "#c6dbef",
-     "en": "Blue",
-     "strana": "Европа",
+     "cena": 79800,
+     "cvet": "Чёрный",
+     "hex": "#2b2b2d",
+     "en": "Black",
      "sim": "eSIM"
     },
     {
-     "cena": 75100,
+     "cena": 79800,
      "cvet": "Белый",
      "hex": "#f4f4f2",
      "en": "White",
-     "strana": "ОАЭ",
-     "sim": "eSIM"
-    },
-    {
-     "cena": 74100,
-     "cvet": "Золотой",
-     "hex": "#efdcbf",
-     "en": "Gold",
-     "strana": "Япония",
      "sim": "eSIM"
     }
    ]
@@ -205,392 +518,12 @@ window.KATALOG = {
    "kat": "iPhone",
    "ikon": "phone",
    "model": "iPhone 17e",
+   "brend": "Apple",
    "konf": "256 ГБ",
    "cpo": "",
    "var": [
     {
-     "cena": 55200,
-     "cvet": "Розовый",
-     "hex": "#f1c7cf",
-     "en": "Pink",
-     "strana": "Индия",
-     "sim": "1 SIM + eSIM"
-    }
-   ]
-  },
-  {
-   "kat": "iPhone",
-   "ikon": "phone",
-   "model": "iPhone 16 Pro Max",
-   "konf": "256 ГБ",
-   "cpo": "",
-   "var": [
-    {
-     "cena": 93000,
-     "cvet": "Пустынный",
-     "hex": "#c8aa8b",
-     "en": "Desert",
-     "strana": "ОАЭ"
-    }
-   ]
-  },
-  {
-   "kat": "iPhone",
-   "ikon": "phone",
-   "model": "iPhone 16 Pro",
-   "konf": "128 ГБ",
-   "cpo": "",
-   "var": [
-    {
-     "cena": 78700,
-     "cvet": "Белый",
-     "hex": "#f4f4f2",
-     "en": "White",
-     "strana": "Китай",
-     "sim": "2 SIM"
-    }
-   ]
-  },
-  {
-   "kat": "iPhone",
-   "ikon": "phone",
-   "model": "iPhone 16 Plus",
-   "konf": "256 ГБ",
-   "cpo": "",
-   "var": [
-    {
-     "cena": 70900,
-     "cvet": "Бирюзовый",
-     "hex": "#86bdb5",
-     "en": "Teal",
-     "strana": "Индия"
-    }
-   ]
-  },
-  {
-   "kat": "iPhone",
-   "ikon": "phone",
-   "model": "iPhone 14",
-   "konf": "512 ГБ",
-   "cpo": "",
-   "var": [
-    {
-     "cena": 52000,
-     "cvet": "Тёмная ночь",
-     "hex": "#2a303c",
-     "en": "Midnight",
-     "strana": "Индия"
-    },
-    {
-     "cena": 52000,
-     "cvet": "Голубой",
-     "hex": "#a8c2da",
-     "en": "Blue",
-     "strana": "Индия"
-    }
-   ]
-  },
-  {
-   "kat": "iPhone",
-   "ikon": "phone",
-   "model": "iPhone 14",
-   "konf": "256 ГБ",
-   "cpo": "",
-   "var": [
-    {
-     "cena": 51000,
-     "cvet": "Тёмная ночь",
-     "hex": "#2a303c",
-     "en": "Midnight",
-     "strana": "Индия"
-    }
-   ]
-  },
-  {
-   "kat": "iPhone",
-   "ikon": "phone",
-   "model": "iPhone 13 Pro",
-   "konf": "256 ГБ",
-   "cpo": "май 2026",
-   "var": [
-    {
-     "cena": 48900,
-     "cvet": "Графитовый",
-     "hex": "#5b5b59",
-     "en": "Graphite",
-     "strana": "Европа"
-    },
-    {
-     "cena": 48900,
-     "cvet": "Золотой",
-     "hex": "#efdcbf",
-     "en": "Gold",
-     "strana": "Европа"
-    },
-    {
-     "cena": 48900,
-     "cvet": "Серебристый",
-     "hex": "#e2e4e7",
-     "en": "Silver",
-     "strana": "Европа"
-    }
-   ]
-  },
-  {
-   "kat": "iPhone",
-   "ikon": "phone",
-   "model": "iPhone 13 Pro",
-   "konf": "128 ГБ",
-   "cpo": "май 2026",
-   "var": [
-    {
-     "cena": 44700,
-     "cvet": "Графитовый",
-     "hex": "#5b5b59",
-     "en": "Graphite",
-     "strana": "Европа"
-    }
-   ]
-  },
-  {
-   "kat": "iPhone",
-   "ikon": "phone",
-   "model": "iPhone 13",
-   "konf": "128 ГБ",
-   "cpo": "",
-   "var": [
-    {
-     "cena": 43600,
-     "cvet": "Тёмная ночь",
-     "hex": "#2a303c",
-     "en": "Midnight",
-     "strana": "Япония"
-    }
-   ]
-  },
-  {
-   "kat": "MacBook",
-   "ikon": "mac",
-   "model": "MacBook Air 15 M5",
-   "konf": "16 ГБ памяти · 512 ГБ SSD",
-   "cpo": "",
-   "var": [
-    {
-     "cena": 115000,
-     "cvet": "Тёмная ночь",
-     "hex": "#2a303c",
-     "en": "Midnight",
-     "strana": "США"
-    },
-    {
-     "cena": 115000,
-     "cvet": "Сияющая звезда",
-     "hex": "#efe6d6",
-     "en": "Starlight",
-     "strana": "США"
-    },
-    {
-     "cena": 115000,
-     "cvet": "Небесно-голубой",
-     "hex": "#c3d7ea",
-     "en": "Sky Blue",
-     "strana": "США"
-    },
-    {
-     "cena": 119200,
-     "cvet": "Серебристый",
-     "hex": "#e2e4e7",
-     "en": "Silver",
-     "strana": "США"
-    }
-   ]
-  },
-  {
-   "kat": "MacBook",
-   "ikon": "mac",
-   "model": "MacBook Air 13 M5",
-   "konf": "16 ГБ памяти · 1 ТБ SSD",
-   "cpo": "",
-   "var": [
-    {
-     "cena": 115000,
-     "cvet": "Сияющая звезда",
-     "hex": "#efe6d6",
-     "en": "Starlight",
-     "strana": "США"
-    }
-   ]
-  },
-  {
-   "kat": "MacBook",
-   "ikon": "mac",
-   "model": "MacBook Air 13 M5",
-   "konf": "16 ГБ памяти · 512 ГБ SSD",
-   "cpo": "",
-   "var": [
-    {
-     "cena": 100300,
-     "cvet": "Тёмная ночь",
-     "hex": "#2a303c",
-     "en": "Midnight",
-     "strana": "Индия"
-    },
-    {
-     "cena": 100300,
-     "cvet": "Сияющая звезда",
-     "hex": "#efe6d6",
-     "en": "Starlight",
-     "strana": "Индия"
-    },
-    {
-     "cena": 100300,
-     "cvet": "Небесно-голубой",
-     "hex": "#c3d7ea",
-     "en": "Sky Blue",
-     "strana": "Индия"
-    },
-    {
-     "cena": 101400,
-     "cvet": "Серебристый",
-     "hex": "#e2e4e7",
-     "en": "Silver",
-     "strana": "Индия"
-    }
-   ]
-  },
-  {
-   "kat": "MacBook",
-   "ikon": "mac",
-   "model": "MacBook Air 15 M4",
-   "konf": "16 ГБ памяти · 256 ГБ SSD",
-   "cpo": "",
-   "var": [
-    {
-     "cena": 97200,
-     "cvet": "Небесно-голубой",
-     "hex": "#c3d7ea",
-     "en": "Sky Blue",
-     "strana": "Индия"
-    }
-   ]
-  },
-  {
-   "kat": "iPad",
-   "ikon": "ipad",
-   "model": "iPad Pro 13 M5 (2025)",
-   "konf": "256 ГБ · Wi-Fi + Cellular",
-   "cpo": "",
-   "var": [
-    {
-     "cena": 109800,
-     "cvet": "Чёрный",
-     "hex": "#2b2b2d",
-     "en": "Black",
-     "strana": "США"
-    }
-   ]
-  },
-  {
-   "kat": "iPad",
-   "ikon": "ipad",
-   "model": "iPad Pro 11 M4 (2024)",
-   "konf": "256 ГБ · Wi-Fi",
-   "cpo": "",
-   "var": [
-    {
-     "cena": 85600,
-     "cvet": "Серебристый",
-     "hex": "#e2e4e7",
-     "en": "Silver",
-     "strana": "США"
-    }
-   ]
-  },
-  {
-   "kat": "iPad",
-   "ikon": "ipad",
-   "model": "iPad 11 (2025)",
-   "konf": "256 ГБ · Wi-Fi",
-   "cpo": "",
-   "var": [
-    {
-     "cena": 42600,
-     "cvet": "Розовый",
-     "hex": "#f1c7cf",
-     "en": "Pink",
-     "strana": "США"
-    },
-    {
-     "cena": 42600,
-     "cvet": "Серебристый",
-     "hex": "#e2e4e7",
-     "en": "Silver",
-     "strana": "США"
-    }
-   ]
-  },
-  {
-   "kat": "iPad",
-   "ikon": "ipad",
-   "model": "iPad 11 (2025)",
-   "konf": "128 ГБ · Wi-Fi",
-   "cpo": "",
-   "var": [
-    {
-     "cena": 35200,
-     "cvet": "Розовый",
-     "hex": "#f1c7cf",
-     "en": "Pink",
-     "strana": "США"
-    },
-    {
-     "cena": 35200,
-     "cvet": "Серебристый",
-     "hex": "#e2e4e7",
-     "en": "Silver",
-     "strana": "США"
-    }
-   ]
-  },
-  {
-   "kat": "Apple Watch",
-   "ikon": "watch",
-   "model": "Apple Watch Ultra 3 49 мм",
-   "konf": "",
-   "cpo": "",
-   "var": [
-    {
-     "cena": 61500,
-     "cvet": "Чёрный титан",
-     "hex": "#3a3a3c",
-     "en": "Black Titan",
-     "remeshok": "Black Ocean Band"
-    },
-    {
-     "cena": 61500,
-     "cvet": "Чёрный титан",
-     "hex": "#3a3a3c",
-     "en": "Black Titan",
-     "remeshok": "Black/Charcoal Trail Loop M/L"
-    },
-    {
-     "cena": 71300,
-     "cvet": "Чёрный титан",
-     "hex": "#3a3a3c",
-     "en": "Black Titan",
-     "remeshok": "Black Milanese Loop M"
-    }
-   ]
-  },
-  {
-   "kat": "Apple Watch",
-   "ikon": "watch",
-   "model": "Apple Watch Series 11 46 мм",
-   "konf": "",
-   "cpo": "",
-   "var": [
-    {
-     "cena": 31400,
+     "cena": 50400,
      "cvet": "Чёрный",
      "hex": "#2b2b2d",
      "en": "Black"
@@ -598,29 +531,141 @@ window.KATALOG = {
    ]
   },
   {
-   "kat": "Apple Watch",
-   "ikon": "watch",
-   "model": "Apple Watch SE 44 мм (2024)",
-   "konf": "",
+   "kat": "iPhone",
+   "ikon": "phone",
+   "model": "iPhone 17",
+   "brend": "Apple",
+   "konf": "256 ГБ",
    "cpo": "",
    "var": [
     {
-     "cena": 17400,
-     "cvet": "Тёмная ночь",
-     "hex": "#2a303c",
-     "en": "Midnight"
+     "cena": 80900,
+     "cvet": "Чёрный",
+     "hex": "#2b2b2d",
+     "en": "Black",
+     "sim": "1 SIM + eSIM"
+    },
+    {
+     "cena": 80900,
+     "cvet": "Белый",
+     "hex": "#f4f4f2",
+     "en": "White",
+     "sim": "1 SIM + eSIM"
+    },
+    {
+     "cena": 80400,
+     "cvet": "Лавандовый",
+     "hex": "#c9b8e0",
+     "en": "Lavender",
+     "sim": "1 SIM + eSIM"
+    },
+    {
+     "cena": 79800,
+     "cvet": "Шалфей",
+     "hex": "#a9b89a",
+     "en": "Sage",
+     "sim": "1 SIM + eSIM"
     }
    ]
   },
   {
-   "kat": "AirPods",
-   "ikon": "max",
-   "model": "AirPods Max 2 (2026)",
-   "konf": "",
+   "kat": "iPhone",
+   "ikon": "phone",
+   "model": "iPhone 16",
+   "brend": "Apple",
+   "konf": "128 ГБ",
    "cpo": "",
    "var": [
     {
-     "cena": 45100,
+     "cena": 68300,
+     "cvet": "Чёрный",
+     "hex": "#2b2b2d",
+     "en": "Black"
+    },
+    {
+     "cena": 67200,
+     "cvet": "Белый",
+     "hex": "#f4f4f2",
+     "en": "White"
+    }
+   ]
+  },
+  {
+   "kat": "iPhone",
+   "ikon": "phone",
+   "model": "iPhone 15",
+   "brend": "Apple",
+   "konf": "128 ГБ",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 57800,
+     "cvet": "Чёрный",
+     "hex": "#2b2b2d",
+     "en": "Black"
+    }
+   ]
+  },
+  {
+   "kat": "iPhone",
+   "ikon": "phone",
+   "model": "iPhone 13",
+   "brend": "Apple",
+   "konf": "128 ГБ",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 51500,
+     "cvet": "Белый",
+     "hex": "#f4f4f2",
+     "en": "White"
+    }
+   ]
+  },
+  {
+   "kat": "MacBook",
+   "ikon": "mac",
+   "model": "MacBook Neo 13",
+   "brend": "Apple",
+   "konf": "A18 Pro · 8 ГБ памяти · 256 ГБ SSD",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 70400,
+     "cvet": "Серебристый",
+     "hex": "#e2e4e7",
+     "en": "Silver"
+    },
+    {
+     "cena": 68300,
+     "cvet": "Индиго",
+     "hex": "#3e4a86",
+     "en": "Indigo"
+    },
+    {
+     "cena": 70400,
+     "cvet": "Нежно-розовый",
+     "hex": "#efc8c2",
+     "en": "Blush"
+    },
+    {
+     "cena": 68300,
+     "cvet": "Жёлтый цитрус",
+     "hex": "#ecdd7b",
+     "en": "Citrus"
+    }
+   ]
+  },
+  {
+   "kat": "MacBook",
+   "ikon": "mac",
+   "model": "MacBook Air 13 M5",
+   "brend": "Apple",
+   "konf": "16 ГБ памяти · 512 ГБ SSD",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 120800,
      "cvet": "Сияющая звезда",
      "hex": "#efe6d6",
      "en": "Starlight"
@@ -628,14 +673,201 @@ window.KATALOG = {
    ]
   },
   {
-   "kat": "AirPods",
-   "ikon": "buds",
-   "model": "AirPods 4 с шумоподавлением",
+   "kat": "iPad",
+   "ikon": "ipad",
+   "model": "iPad Pro 11 M5 (2025)",
+   "brend": "Apple",
+   "konf": "256 ГБ · Wi-Fi",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 99800,
+     "cvet": "Чёрный",
+     "hex": "#2b2b2d",
+     "en": "Black"
+    },
+    {
+     "cena": 105000,
+     "cvet": "Серебристый",
+     "hex": "#e2e4e7",
+     "en": "Silver"
+    }
+   ]
+  },
+  {
+   "kat": "iPad",
+   "ikon": "ipad",
+   "model": "iPad Pro 13 M5 (2025)",
+   "brend": "Apple",
+   "konf": "256 ГБ · Wi-Fi",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 119700,
+     "cvet": "Серебристый",
+     "hex": "#e2e4e7",
+     "en": "Silver"
+    },
+    {
+     "cena": 115500,
+     "cvet": "Чёрный",
+     "hex": "#2b2b2d",
+     "en": "Black"
+    }
+   ]
+  },
+  {
+   "kat": "iPad",
+   "ikon": "ipad",
+   "model": "iPad Air 11 M4",
+   "brend": "Apple",
+   "konf": "128 ГБ · Wi-Fi",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 70400,
+     "cvet": "Сияющая звезда",
+     "hex": "#efe6d6",
+     "en": "Starlight"
+    }
+   ]
+  },
+  {
+   "kat": "iPad",
+   "ikon": "ipad",
+   "model": "iPad Air 11 M4",
+   "brend": "Apple",
+   "konf": "256 ГБ · Wi-Fi",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 78800,
+     "cvet": "Сияющая звезда",
+     "hex": "#efe6d6",
+     "en": "Starlight"
+    }
+   ]
+  },
+  {
+   "kat": "iPad",
+   "ikon": "ipad",
+   "model": "iPad 11 (2025)",
+   "brend": "Apple",
+   "konf": "256 ГБ · Wi-Fi",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 53600,
+     "cvet": "Розовый",
+     "hex": "#f1c7cf",
+     "en": "Pink"
+    },
+    {
+     "cena": 53600,
+     "cvet": "Серебристый",
+     "hex": "#e2e4e7",
+     "en": "Silver"
+    }
+   ]
+  },
+  {
+   "kat": "iPad",
+   "ikon": "ipad",
+   "model": "iPad 11 (2025)",
+   "brend": "Apple",
+   "konf": "128 ГБ · Wi-Fi",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 42000,
+     "cvet": "Розовый",
+     "hex": "#f1c7cf",
+     "en": "Pink"
+    },
+    {
+     "cena": 42000,
+     "cvet": "Серебристый",
+     "hex": "#e2e4e7",
+     "en": "Silver"
+    },
+    {
+     "cena": 42000,
+     "cvet": "Голубой",
+     "hex": "#a9c6e8",
+     "en": "Blue"
+    }
+   ]
+  },
+  {
+   "kat": "Apple Watch",
+   "ikon": "watch",
+   "model": "Apple Watch Ultra 4 49 мм",
+   "brend": "Apple",
    "konf": "",
    "cpo": "",
    "var": [
     {
-     "cena": 14600,
+     "cena": 76700,
+     "cvet": "Чёрный и бордовый",
+     "hex": "#3d1d25",
+     "en": "Black Burgundy"
+    }
+   ]
+  },
+  {
+   "kat": "Apple Watch",
+   "ikon": "watch",
+   "model": "Apple Watch Ultra 3 49 мм",
+   "brend": "Apple",
+   "konf": "",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 58800,
+     "cvet": "Чёрный",
+     "hex": "#2b2b2d",
+     "en": "Black"
+    }
+   ]
+  },
+  {
+   "kat": "AirPods",
+   "ikon": "buds",
+   "model": "AirPods 5 с шумоподавлением",
+   "brend": "Apple",
+   "konf": "",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 16300,
+     "hex": "#f4f4f2"
+    }
+   ]
+  },
+  {
+   "kat": "AirPods",
+   "ikon": "buds",
+   "model": "AirPods 5",
+   "brend": "Apple",
+   "konf": "",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 14700,
+     "hex": "#f4f4f2"
+    }
+   ]
+  },
+  {
+   "kat": "AirPods",
+   "ikon": "buds",
+   "model": "AirPods 4 с шумоподавлением",
+   "brend": "Apple",
+   "konf": "",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 12600,
      "hex": "#f4f4f2"
     }
    ]
@@ -644,11 +876,404 @@ window.KATALOG = {
    "kat": "AirPods",
    "ikon": "buds",
    "model": "AirPods 4",
+   "brend": "Apple",
    "konf": "",
    "cpo": "",
    "var": [
     {
-     "cena": 9800,
+     "cena": 10500,
+     "hex": "#f4f4f2"
+    }
+   ]
+  },
+  {
+   "kat": "AirPods",
+   "ikon": "buds",
+   "model": "AirPods Pro 3",
+   "brend": "Apple",
+   "konf": "",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 19500,
+     "hex": "#f4f4f2"
+    }
+   ]
+  },
+  {
+   "kat": "AirPods",
+   "ikon": "max",
+   "model": "AirPods Max 2 (2026)",
+   "brend": "Apple",
+   "konf": "",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 42000,
+     "cvet": "Сияющая звезда",
+     "hex": "#efe6d6",
+     "en": "Starlight"
+    },
+    {
+     "cena": 42000,
+     "cvet": "Тёмная ночь",
+     "hex": "#2a303c",
+     "en": "Midnight"
+    }
+   ]
+  },
+  {
+   "kat": "Наушники",
+   "ikon": "buds",
+   "model": "Samsung Galaxy Buds 4 Pro",
+   "brend": "Samsung",
+   "konf": "",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 15800,
+     "cvet": "Белый",
+     "hex": "#f4f4f2",
+     "en": "White"
+    },
+    {
+     "cena": 15800,
+     "cvet": "Чёрный",
+     "hex": "#2b2b2d",
+     "en": "Black"
+    }
+   ]
+  },
+  {
+   "kat": "Наушники",
+   "ikon": "buds",
+   "model": "Samsung Galaxy Buds 4",
+   "brend": "Samsung",
+   "konf": "",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 13200,
+     "cvet": "Белый",
+     "hex": "#f4f4f2",
+     "en": "White"
+    },
+    {
+     "cena": 13200,
+     "cvet": "Чёрный",
+     "hex": "#2b2b2d",
+     "en": "Black"
+    }
+   ]
+  },
+  {
+   "kat": "Браслеты",
+   "ikon": "band",
+   "model": "Fitbit Air",
+   "brend": "Fitbit",
+   "konf": "",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 12100,
+     "cvet": "Обсидиан",
+     "hex": "#2a2a2e",
+     "en": "Obsidian"
+    },
+    {
+     "cena": 11600,
+     "cvet": "Ягодный",
+     "hex": "#a8325a",
+     "en": "Berry"
+    },
+    {
+     "cena": 11600,
+     "cvet": "Лавандовый",
+     "hex": "#c9b8e0",
+     "en": "Lavender"
+    }
+   ]
+  },
+  {
+   "kat": "Браслеты",
+   "ikon": "band",
+   "model": "Fitbit Air",
+   "brend": "Fitbit",
+   "konf": "Special Edition Stephen Curry",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 18900,
+     "hex": "#c8323c"
+    }
+   ]
+  },
+  {
+   "kat": "Браслеты",
+   "ikon": "band",
+   "model": "Garmin CIRQA",
+   "brend": "Garmin",
+   "konf": "",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 23100,
+     "cvet": "Чёрный",
+     "hex": "#2b2b2d",
+     "en": "Black"
+    },
+    {
+     "cena": 23100,
+     "cvet": "Серый",
+     "hex": "#8e9196",
+     "en": "Gray"
+    }
+   ]
+  },
+  {
+   "kat": "Браслеты",
+   "ikon": "band",
+   "model": "Whoop Peak",
+   "brend": "Whoop",
+   "konf": "",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 24200,
+     "hex": "#f4f4f2"
+    }
+   ]
+  },
+  {
+   "kat": "Фото и видео",
+   "ikon": "instax",
+   "model": "Fujifilm Instax Mini Evo",
+   "brend": "Fujifilm",
+   "konf": "",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 16800,
+     "cvet": "Чёрный",
+     "hex": "#2b2b2d",
+     "en": "Black"
+    },
+    {
+     "cena": 17900,
+     "cvet": "Коричневый",
+     "hex": "#8b5e3c",
+     "en": "Brown"
+    },
+    {
+     "cena": 21000,
+     "cvet": "Розовый",
+     "hex": "#f1c7cf",
+     "en": "Pink"
+    }
+   ]
+  },
+  {
+   "kat": "Фото и видео",
+   "ikon": "instax",
+   "model": "Fujifilm Instax Mini 13",
+   "brend": "Fujifilm",
+   "konf": "",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 9500,
+     "cvet": "Фиолетовый",
+     "hex": "#b49bd4",
+     "en": "Purple"
+    },
+    {
+     "cena": 9500,
+     "cvet": "Белый",
+     "hex": "#f4f4f2",
+     "en": "White"
+    }
+   ]
+  },
+  {
+   "kat": "Фото и видео",
+   "ikon": "camera",
+   "model": "Canon PowerShot G7 X Mark III",
+   "brend": "Canon",
+   "konf": "30th Anniversary Limited Edition",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 120800,
+     "hex": "#f4f4f2",
+     "pometka": "в наличии 1 шт, есть 2-3 мелкие царапины"
+    }
+   ]
+  },
+  {
+   "kat": "Фото и видео",
+   "ikon": "camera",
+   "model": "Canon PowerShot G7 X Mark III",
+   "brend": "Canon",
+   "konf": "",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 109200,
+     "hex": "#f4f4f2"
+    }
+   ]
+  },
+  {
+   "kat": "Фото и видео",
+   "ikon": "pocket",
+   "model": "DJI Osmo Pocket 4 Pro",
+   "brend": "DJI",
+   "konf": "",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 64100,
+     "hex": "#f4f4f2"
+    }
+   ]
+  },
+  {
+   "kat": "Фото и видео",
+   "ikon": "pocket",
+   "model": "DJI Osmo Pocket 4",
+   "brend": "DJI",
+   "konf": "",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 39400,
+     "hex": "#f4f4f2"
+    }
+   ]
+  },
+  {
+   "kat": "Фото и видео",
+   "ikon": "mic",
+   "model": "DJI Mic Mini",
+   "brend": "DJI",
+   "konf": "",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 9000,
+     "hex": "#f4f4f2"
+    }
+   ]
+  },
+  {
+   "kat": "Игры",
+   "ikon": "gamepad",
+   "model": "Джойстик для PlayStation 5",
+   "brend": "Sony",
+   "konf": "",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 6900,
+     "hex": "#f4f4f2"
+    }
+   ]
+  },
+  {
+   "kat": "Игры",
+   "ikon": "ps",
+   "model": "PlayStation 5 Pro",
+   "brend": "Sony",
+   "konf": "",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 133400,
+     "hex": "#f4f4f2",
+     "pometka": "ревизия 2"
+    }
+   ]
+  },
+  {
+   "kat": "Игры",
+   "ikon": "ps",
+   "model": "PlayStation 5 Slim",
+   "brend": "Sony",
+   "konf": "с дисководом",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 74600,
+     "hex": "#f4f4f2",
+     "pometka": "ревизия 2"
+    }
+   ]
+  },
+  {
+   "kat": "Очки",
+   "ikon": "glasses",
+   "model": "Ray-Ban Gen 2 53 мм",
+   "brend": "Ray-Ban",
+   "konf": "",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 35700,
+     "cvet": "Чёрная оправа, зелёные линзы",
+     "hex": "#24382c",
+     "en": "Black/Green",
+     "pometka": "линзы-хамелеоны"
+    }
+   ]
+  },
+  {
+   "kat": "Очки",
+   "ikon": "glasses",
+   "model": "Ray-Ban Gen 1 53 мм",
+   "brend": "Ray-Ban",
+   "konf": "",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 31500,
+     "cvet": "Чёрная оправа, зелёные линзы",
+     "hex": "#24382c",
+     "en": "Black/Green"
+    }
+   ]
+  },
+  {
+   "kat": "Аксессуары",
+   "ikon": "mouse",
+   "model": "Apple Magic Mouse",
+   "brend": "Apple",
+   "konf": "",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 8400,
+     "cvet": "Чёрный",
+     "hex": "#2b2b2d",
+     "en": "Black"
+    },
+    {
+     "cena": 8400,
+     "cvet": "Белый",
+     "hex": "#f4f4f2",
+     "en": "White"
+    }
+   ]
+  },
+  {
+   "kat": "Аксессуары",
+   "ikon": "pencil",
+   "model": "Apple Pencil USB-C",
+   "brend": "Apple",
+   "konf": "",
+   "cpo": "",
+   "var": [
+    {
+     "cena": 7400,
      "hex": "#f4f4f2"
     }
    ]
@@ -657,11 +1282,12 @@ window.KATALOG = {
    "kat": "Аксессуары",
    "ikon": "pencil",
    "model": "Apple Pencil Pro",
+   "brend": "Apple",
    "konf": "",
    "cpo": "",
    "var": [
     {
-     "cena": 9800,
+     "cena": 11100,
      "hex": "#f4f4f2"
     }
    ]
@@ -669,25 +1295,13 @@ window.KATALOG = {
   {
    "kat": "Аксессуары",
    "ikon": "pencil",
-   "model": "Apple Pencil USB-C",
+   "model": "Apple Pencil 2",
+   "brend": "Apple",
    "konf": "",
    "cpo": "",
    "var": [
     {
-     "cena": 7300,
-     "hex": "#f4f4f2"
-    }
-   ]
-  },
-  {
-   "kat": "Аксессуары",
-   "ikon": "charger",
-   "model": "Адаптер питания Apple USB-C 20 Вт",
-   "konf": "",
-   "cpo": "",
-   "var": [
-    {
-     "cena": 1500,
+     "cena": 9500,
      "hex": "#f4f4f2"
     }
    ]
