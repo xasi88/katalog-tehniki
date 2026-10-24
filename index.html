@@ -144,7 +144,7 @@ h2 { margin: 0; font: 800 clamp(1.6rem, 1.2rem + 1.6vw, 2.4rem)/1.1 var(--displa
 
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); gap: 16px; margin: 0; padding: 0; list-style: none; }
 .card { display: flex; flex-direction: column; border: 1px solid var(--card-rule); border-radius: var(--radius); background: var(--white); box-shadow: var(--card-shadow); overflow: hidden; }
-.pic { position: relative; height: 168px; display: grid; place-items: center; background: radial-gradient(circle at 50% 45%, rgba(34, 163, 254, 0.2), transparent 62%), var(--ice); }
+.pic { position: relative; height: 200px; display: grid; place-items: center; background: radial-gradient(circle at 50% 45%, rgba(34, 163, 254, 0.2), transparent 62%), var(--ice); }
 .pic svg { width: 150px; height: 120px; overflow: visible; filter: drop-shadow(0 14px 18px rgba(27, 49, 202, 0.22)); }
 .pic .b { fill: var(--c); stroke: rgba(7, 11, 31, 0.42); stroke-width: 1.5; transition: fill 0.35s ease; }
 .pic .st { fill: none; stroke: var(--c); stroke-width: 9; stroke-linecap: round; transition: stroke 0.35s ease; }
@@ -153,6 +153,10 @@ h2 { margin: 0; font: 800 clamp(1.6rem, 1.2rem + 1.6vw, 2.4rem)/1.1 var(--displa
 .pic .k { fill: rgba(7, 11, 31, 0.13); }
 .pic .o { fill: rgba(7, 11, 31, 0.55); }
 .pic .l { fill: none; stroke: rgba(7, 11, 31, 0.32); stroke-width: 1.5; }
+/* Фото товара по ссылке с сайта производителя. Пока не загрузилось или не открылось, виден рисунок. */
+.pic .foto { display: none; position: absolute; inset: 0; width: 100%; height: 100%; padding: 14px 18px; object-fit: contain; mix-blend-mode: multiply; }
+.pic.s-foto .foto { display: block; }
+.pic.s-foto svg { display: none; }
 .tag { position: absolute; left: 12px; top: 12px; padding: 5px 12px; border-radius: 999px; background: var(--deep); color: var(--white); font-size: 0.8rem; font-weight: 800; }
 .body { display: flex; flex-direction: column; flex: 1; padding: 18px 20px 20px; }
 .kat { margin: 0; color: var(--blue); font-size: 0.8rem; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; }
@@ -453,7 +457,8 @@ h2 { margin: 0; font: 800 clamp(1.6rem, 1.2rem + 1.6vw, 2.4rem)/1.1 var(--displa
       vars = '<p class="one"><span class="sw" style="--c:' + t.var[0].hex + '"></span>' + esc(p[0]) + '</p>';
     }
     li.innerHTML =
-      '<div class="pic" style="--c:' + t.var[0].hex + '">' + (t.cpo ? '<span class="tag">Восстановлен Apple</span>' : '') + IKON[t.ikon] + '</div>' +
+      '<div class="pic" style="--c:' + t.var[0].hex + '">' + (t.cpo ? '<span class="tag">Восстановлен Apple</span>' : '') + IKON[t.ikon] +
+      '<img class="foto" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>' +
       '<div class="body"><p class="kat">' + esc(t.kat) + '</p><h3>' +
       (STR[t.model] ? '<a href="' + STR[t.model] + '">' + esc(t.model) + '</a>' : esc(t.model)) + '</h3>' +
       (t.konf ? '<p class="konf">' + esc(t.konf) + '</p>' : '') + vars +
@@ -469,7 +474,14 @@ h2 { margin: 0; font: 800 clamp(1.6rem, 1.2rem + 1.6vw, 2.4rem)/1.1 var(--displa
         ym2('reachGoal', 'vybor_cveta');
         param('Выбор цвета', tovar(t).name, versiya(v));
       }
-      li.querySelector('.pic').style.setProperty('--c', v.hex);
+      pic.style.setProperty('--c', v.hex);
+      if (v.foto) {
+        im.alt = t.model + (p[i] ? ', ' + p[i] : '');
+        if (im.getAttribute('src') !== v.foto) im.src = v.foto;
+      } else {
+        im.removeAttribute('src');
+        pic.classList.remove('s-foto');
+      }
       li.querySelector('.det').innerHTML = detali(t, v);
       var pr = li.querySelector('.price');
       pr.textContent = rub(v.cena);
@@ -479,6 +491,10 @@ h2 { margin: 0; font: 800 clamp(1.6rem, 1.2rem + 1.6vw, 2.4rem)/1.1 var(--displa
       a.setAttribute('aria-label', 'Заказать в WhatsApp: ' + t.model + (t.konf ? ', ' + t.konf : '') + (p[i] ? ', ' + p[i] : '') + ', ' + rub(v.cena));
       li.querySelectorAll('.var').forEach(function (b) { b.setAttribute('aria-pressed', String(+b.dataset.i === i)); });
     }
+    var pic = li.querySelector('.pic');
+    var im = pic.querySelector('.foto');
+    im.onload = function () { if (im.getAttribute('src')) pic.classList.add('s-foto'); };
+    im.onerror = function () { pic.classList.remove('s-foto'); };
     li.addEventListener('click', function (e) {
       var b = e.target.closest('.var');
       if (b) vybrat(+b.dataset.i, true);
