@@ -11,7 +11,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 278300,
+     "cena": 263000,
      "cvet": "Бордовый",
      "hex": "#6b1f2e",
      "en": "Burgundy",
@@ -20,7 +20,7 @@ window.KATALOG = {
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-max-finish-select-burgundy-202609?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 278300,
+     "cena": 268000,
      "cvet": "Чёрный",
      "hex": "#2b2b2d",
      "en": "Black",
@@ -28,7 +28,7 @@ window.KATALOG = {
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-max-finish-select-black-202609?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 278300,
+     "cena": 268000,
      "cvet": "Ледниковый",
      "hex": "#cfe0ea",
      "en": "Glacier",
@@ -46,7 +46,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 206900,
+     "cena": 198000,
      "cvet": "Чёрный",
      "hex": "#2b2b2d",
      "en": "Black",
@@ -54,7 +54,7 @@ window.KATALOG = {
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-max-finish-select-black-202609?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 215300,
+     "cena": 205000,
      "cvet": "Бордовый",
      "hex": "#6b1f2e",
      "en": "Burgundy",
@@ -72,7 +72,15 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 157500,
+     "cena": 154000,
+     "cvet": "Бордовый",
+     "hex": "#6b1f2e",
+     "en": "Burgundy",
+     "sim": "1 SIM + eSIM",
+     "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-max-finish-select-burgundy-202609?wid=360&hei=360&fmt=png-alpha"
+    },
+    {
+     "cena": 149000,
      "cvet": "Чёрный",
      "hex": "#2b2b2d",
      "en": "Black",
@@ -81,7 +89,7 @@ window.KATALOG = {
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-max-finish-select-black-202609?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 157500,
+     "cena": 153000,
      "cvet": "Чёрный",
      "hex": "#2b2b2d",
      "en": "Black",
@@ -89,7 +97,7 @@ window.KATALOG = {
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-max-finish-select-black-202609?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 152300,
+     "cena": 148000,
      "cvet": "Чёрный",
      "hex": "#2b2b2d",
      "en": "Black",
@@ -97,7 +105,7 @@ window.KATALOG = {
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-max-finish-select-black-202609?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 154400,
+     "cena": 148000,
      "cvet": "Ледниковый",
      "hex": "#cfe0ea",
      "en": "Glacier",
@@ -106,11 +114,19 @@ window.KATALOG = {
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-max-finish-select-glacier-202609?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 159600,
+     "cena": 151000,
      "cvet": "Ледниковый",
      "hex": "#cfe0ea",
      "en": "Glacier",
      "sim": "1 SIM + eSIM",
+     "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-max-finish-select-glacier-202609?wid=360&hei=360&fmt=png-alpha"
+    },
+    {
+     "cena": 148000,
+     "cvet": "Ледниковый",
+     "hex": "#cfe0ea",
+     "en": "Glacier",
+     "sim": "eSIM",
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-max-finish-select-glacier-202609?wid=360&hei=360&fmt=png-alpha"
     }
    ]
@@ -124,7 +140,23 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 133400,
+     "cena": 135000,
+     "cvet": "Бордовый",
+     "hex": "#6b1f2e",
+     "en": "Burgundy",
+     "sim": "1 SIM + eSIM",
+     "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-max-finish-select-burgundy-202609?wid=360&hei=360&fmt=png-alpha"
+    },
+    {
+     "cena": 132000,
+     "cvet": "Бордовый",
+     "hex": "#6b1f2e",
+     "en": "Burgundy",
+     "sim": "eSIM",
+     "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-max-finish-select-burgundy-202609?wid=360&hei=360&fmt=png-alpha"
+    },
+    {
+     "cena": 130000,
      "cvet": "Чёрный",
      "hex": "#2b2b2d",
      "en": "Black",
@@ -132,7 +164,7 @@ window.KATALOG = {
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-max-finish-select-black-202609?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 132300,
+     "cena": 126000,
      "cvet": "Чёрный",
      "hex": "#2b2b2d",
      "en": "Black",
@@ -140,7 +172,7 @@ window.KATALOG = {
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-max-finish-select-black-202609?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 135500,
+     "cena": 131000,
      "cvet": "Ледниковый",
      "hex": "#cfe0ea",
      "en": "Glacier",
@@ -148,12 +180,12 @@ window.KATALOG = {
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-max-finish-select-glacier-202609?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 138600,
-     "cvet": "Бордовый",
-     "hex": "#6b1f2e",
-     "en": "Burgundy",
+     "cena": 129000,
+     "cvet": "Ледниковый",
+     "hex": "#cfe0ea",
+     "en": "Glacier",
      "sim": "eSIM",
-     "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-max-finish-select-burgundy-202609?wid=360&hei=360&fmt=png-alpha"
+     "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-max-finish-select-glacier-202609?wid=360&hei=360&fmt=png-alpha"
     }
    ]
   },
@@ -166,7 +198,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 236300,
+     "cena": 228000,
      "cvet": "Чёрный",
      "hex": "#2b2b2d",
      "en": "Black",
@@ -175,7 +207,7 @@ window.KATALOG = {
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-finish-select-black-202609?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 241500,
+     "cena": 233000,
      "cvet": "Бордовый",
      "hex": "#6b1f2e",
      "en": "Burgundy",
@@ -194,7 +226,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 206900,
+     "cena": 200000,
      "cvet": "Бордовый",
      "hex": "#6b1f2e",
      "en": "Burgundy",
@@ -202,7 +234,7 @@ window.KATALOG = {
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-finish-select-burgundy-202609?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 204800,
+     "cena": 198000,
      "cvet": "Чёрный",
      "hex": "#2b2b2d",
      "en": "Black",
@@ -220,7 +252,23 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 138600,
+     "cena": 142000,
+     "cvet": "Бордовый",
+     "hex": "#6b1f2e",
+     "en": "Burgundy",
+     "sim": "1 SIM + eSIM",
+     "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-finish-select-burgundy-202609?wid=360&hei=360&fmt=png-alpha"
+    },
+    {
+     "cena": 136000,
+     "cvet": "Бордовый",
+     "hex": "#6b1f2e",
+     "en": "Burgundy",
+     "sim": "eSIM",
+     "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-finish-select-burgundy-202609?wid=360&hei=360&fmt=png-alpha"
+    },
+    {
+     "cena": 134000,
      "cvet": "Чёрный",
      "hex": "#2b2b2d",
      "en": "Black",
@@ -228,7 +276,7 @@ window.KATALOG = {
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-finish-select-black-202609?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 142800,
+     "cena": 138000,
      "cvet": "Ледниковый",
      "hex": "#cfe0ea",
      "en": "Glacier",
@@ -236,28 +284,12 @@ window.KATALOG = {
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-finish-select-glacier-202609?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 138600,
+     "cena": 136000,
      "cvet": "Ледниковый",
      "hex": "#cfe0ea",
      "en": "Glacier",
      "sim": "eSIM",
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-finish-select-glacier-202609?wid=360&hei=360&fmt=png-alpha"
-    },
-    {
-     "cena": 147000,
-     "cvet": "Бордовый",
-     "hex": "#6b1f2e",
-     "en": "Burgundy",
-     "sim": "1 SIM + eSIM",
-     "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-finish-select-burgundy-202609?wid=360&hei=360&fmt=png-alpha"
-    },
-    {
-     "cena": 138600,
-     "cvet": "Бордовый",
-     "hex": "#6b1f2e",
-     "en": "Burgundy",
-     "sim": "eSIM",
-     "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-finish-select-burgundy-202609?wid=360&hei=360&fmt=png-alpha"
     }
    ]
   },
@@ -270,7 +302,15 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 121800,
+     "cena": 121000,
+     "cvet": "Бордовый",
+     "hex": "#6b1f2e",
+     "en": "Burgundy",
+     "sim": "1 SIM + eSIM",
+     "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-finish-select-burgundy-202609?wid=360&hei=360&fmt=png-alpha"
+    },
+    {
+     "cena": 116000,
      "cvet": "Бордовый",
      "hex": "#6b1f2e",
      "en": "Burgundy",
@@ -278,7 +318,7 @@ window.KATALOG = {
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-finish-select-burgundy-202609?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 120800,
+     "cena": 118000,
      "cvet": "Ледниковый",
      "hex": "#cfe0ea",
      "en": "Glacier",
@@ -286,11 +326,27 @@ window.KATALOG = {
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-finish-select-glacier-202609?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 120800,
+     "cena": 114000,
+     "cvet": "Ледниковый",
+     "hex": "#cfe0ea",
+     "en": "Glacier",
+     "sim": "eSIM",
+     "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-finish-select-glacier-202609?wid=360&hei=360&fmt=png-alpha"
+    },
+    {
+     "cena": 118000,
      "cvet": "Чёрный",
      "hex": "#2b2b2d",
      "en": "Black",
      "sim": "1 SIM + eSIM",
+     "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-finish-select-black-202609?wid=360&hei=360&fmt=png-alpha"
+    },
+    {
+     "cena": 114000,
+     "cvet": "Чёрный",
+     "hex": "#2b2b2d",
+     "en": "Black",
+     "sim": "eSIM",
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-finish-select-black-202609?wid=360&hei=360&fmt=png-alpha"
     }
    ]
@@ -304,7 +360,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 189000,
+     "cena": 183000,
      "cvet": "Серебристый",
      "hex": "#e2e4e7",
      "en": "Silver",
@@ -323,7 +379,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 136500,
+     "cena": 133000,
      "cvet": "Оранжевый",
      "hex": "#ee7d33",
      "en": "Orange",
@@ -342,7 +398,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 136500,
+     "cena": 133000,
      "cvet": "Тёмно-синий",
      "hex": "#2f3c5c",
      "en": "Blue",
@@ -351,7 +407,7 @@ window.KATALOG = {
      "sim": "1 SIM + eSIM"
     },
     {
-     "cena": 121800,
+     "cena": 119000,
      "cvet": "Тёмно-синий",
      "hex": "#2f3c5c",
      "en": "Blue",
@@ -360,7 +416,7 @@ window.KATALOG = {
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-pro-max-finish-select-deepblue-202509?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 142800,
+     "cena": 139000,
      "cvet": "Серебристый",
      "hex": "#e2e4e7",
      "en": "Silver",
@@ -369,7 +425,7 @@ window.KATALOG = {
      "sim": "1 SIM + eSIM"
     },
     {
-     "cena": 131300,
+     "cena": 128000,
      "cvet": "Оранжевый",
      "hex": "#ee7d33",
      "en": "Orange",
@@ -388,7 +444,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 112400,
+     "cena": 110000,
      "cvet": "Тёмно-синий",
      "hex": "#2f3c5c",
      "en": "Blue",
@@ -397,7 +453,7 @@ window.KATALOG = {
      "sim": "1 SIM + eSIM"
     },
     {
-     "cena": 118200,
+     "cena": 115500,
      "cvet": "Серебристый",
      "hex": "#e2e4e7",
      "en": "Silver",
@@ -406,7 +462,7 @@ window.KATALOG = {
      "sim": "1 SIM + eSIM"
     },
     {
-     "cena": 108200,
+     "cena": 106000,
      "cvet": "Серебристый",
      "hex": "#e2e4e7",
      "en": "Silver",
@@ -415,7 +471,7 @@ window.KATALOG = {
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-pro-max-finish-select-silver-202509?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 113400,
+     "cena": 111000,
      "cvet": "Оранжевый",
      "hex": "#ee7d33",
      "en": "Orange",
@@ -434,7 +490,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 118700,
+     "cena": 116000,
      "cvet": "Оранжевый",
      "hex": "#ee7d33",
      "en": "Orange",
@@ -443,7 +499,7 @@ window.KATALOG = {
      "sim": "1 SIM + eSIM"
     },
     {
-     "cena": 109200,
+     "cena": 107000,
      "cvet": "Оранжевый",
      "hex": "#ee7d33",
      "en": "Orange",
@@ -452,7 +508,7 @@ window.KATALOG = {
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-pro-finish-select-cosmicorange-202509?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 119700,
+     "cena": 117000,
      "cvet": "Тёмно-синий",
      "hex": "#2f3c5c",
      "en": "Blue",
@@ -461,7 +517,7 @@ window.KATALOG = {
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-pro-finish-select-deepblue-202509?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 127100,
+     "cena": 124000,
      "cvet": "Тёмно-синий",
      "hex": "#2f3c5c",
      "en": "Blue",
@@ -470,7 +526,7 @@ window.KATALOG = {
      "sim": "1 SIM + eSIM"
     },
     {
-     "cena": 132300,
+     "cena": 129000,
      "cvet": "Серебристый",
      "hex": "#e2e4e7",
      "en": "Silver",
@@ -489,7 +545,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 106100,
+     "cena": 104000,
      "cvet": "Тёмно-синий",
      "hex": "#2f3c5c",
      "en": "Blue",
@@ -498,7 +554,7 @@ window.KATALOG = {
      "sim": "1 SIM + eSIM"
     },
     {
-     "cena": 107700,
+     "cena": 105500,
      "cvet": "Серебристый",
      "hex": "#e2e4e7",
      "en": "Silver",
@@ -507,7 +563,7 @@ window.KATALOG = {
      "sim": "1 SIM + eSIM"
     },
     {
-     "cena": 100800,
+     "cena": 99000,
      "cvet": "Серебристый",
      "hex": "#e2e4e7",
      "en": "Silver",
@@ -526,7 +582,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 89300,
+     "cena": 88000,
      "cvet": "Чёрный",
      "hex": "#2b2b2d",
      "en": "Black",
@@ -544,7 +600,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 79800,
+     "cena": 79000,
      "cvet": "Чёрный",
      "hex": "#2b2b2d",
      "en": "Black",
@@ -552,7 +608,7 @@ window.KATALOG = {
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-select-spaceblack-202509?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 79800,
+     "cena": 79000,
      "cvet": "Белый",
      "hex": "#f4f4f2",
      "en": "White",
@@ -570,7 +626,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 50400,
+     "cena": 51000,
      "cvet": "Чёрный",
      "hex": "#2b2b2d",
      "en": "Black",
@@ -587,7 +643,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 80900,
+     "cena": 80000,
      "cvet": "Чёрный",
      "hex": "#2b2b2d",
      "en": "Black",
@@ -595,7 +651,7 @@ window.KATALOG = {
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-finish-select-black-202509?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 80900,
+     "cena": 80000,
      "cvet": "Белый",
      "hex": "#f4f4f2",
      "en": "White",
@@ -603,7 +659,7 @@ window.KATALOG = {
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-finish-select-white-202509?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 80400,
+     "cena": 79500,
      "cvet": "Лавандовый",
      "hex": "#c9b8e0",
      "en": "Lavender",
@@ -611,7 +667,7 @@ window.KATALOG = {
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-finish-select-lavender-202509?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 79800,
+     "cena": 79000,
      "cvet": "Шалфей",
      "hex": "#a9b89a",
      "en": "Sage",
@@ -629,14 +685,14 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 68300,
+     "cena": 68000,
      "cvet": "Чёрный",
      "hex": "#2b2b2d",
      "en": "Black",
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16-finish-select-202409-6-1inch-black?wid=360&hei=360&fmt=png-alpha&cropN=0.34,0.08,0.32,0.84"
     },
     {
-     "cena": 67200,
+     "cena": 67000,
      "cvet": "Белый",
      "hex": "#f4f4f2",
      "en": "White",
@@ -653,7 +709,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 57800,
+     "cena": 58000,
      "cvet": "Чёрный",
      "hex": "#2b2b2d",
      "en": "Black",
@@ -670,7 +726,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 51500,
+     "cena": 52000,
      "cvet": "Белый",
      "hex": "#f4f4f2",
      "en": "White",
@@ -687,28 +743,28 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 70400,
+     "cena": 70000,
      "cvet": "Серебристый",
      "hex": "#e2e4e7",
      "en": "Silver",
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/macbook-neo-color-select-202603-silver-256gb?wid=400&hei=300&fmt=png-alpha&cropN=0.2,0.15,0.6,0.7"
     },
     {
-     "cena": 68300,
+     "cena": 68000,
      "cvet": "Индиго",
      "hex": "#3e4a86",
      "en": "Indigo",
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/macbook-neo-color-select-202603-indigo-256gb?wid=400&hei=300&fmt=png-alpha&cropN=0.2,0.15,0.6,0.7"
     },
     {
-     "cena": 70400,
+     "cena": 70000,
      "cvet": "Нежно-розовый",
      "hex": "#efc8c2",
      "en": "Blush",
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/macbook-neo-color-select-202603-blush-256gb?wid=400&hei=300&fmt=png-alpha&cropN=0.2,0.15,0.6,0.7"
     },
     {
-     "cena": 68300,
+     "cena": 68000,
      "cvet": "Жёлтый цитрус",
      "hex": "#ecdd7b",
      "en": "Citrus",
@@ -725,7 +781,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 120800,
+     "cena": 118000,
      "cvet": "Сияющая звезда",
      "hex": "#efe6d6",
      "en": "Starlight",
@@ -742,14 +798,14 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 99800,
+     "cena": 98000,
      "cvet": "Чёрный",
      "hex": "#2b2b2d",
      "en": "Black",
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-pro-11-select-wifi-spaceblack-202405?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 105000,
+     "cena": 103000,
      "cvet": "Серебристый",
      "hex": "#e2e4e7",
      "en": "Silver",
@@ -766,14 +822,14 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 119700,
+     "cena": 117000,
      "cvet": "Серебристый",
      "hex": "#e2e4e7",
      "en": "Silver",
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-pro-13-select-wifi-silver-202405?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 115500,
+     "cena": 113000,
      "cvet": "Чёрный",
      "hex": "#2b2b2d",
      "en": "Black",
@@ -790,7 +846,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 70400,
+     "cena": 70000,
      "cvet": "Сияющая звезда",
      "hex": "#efe6d6",
      "en": "Starlight",
@@ -807,7 +863,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 78800,
+     "cena": 78000,
      "cvet": "Сияющая звезда",
      "hex": "#efe6d6",
      "en": "Starlight",
@@ -824,14 +880,14 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 53600,
+     "cena": 54000,
      "cvet": "Розовый",
      "hex": "#f1c7cf",
      "en": "Pink",
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-2022-hero-pink-wifi-select?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 53600,
+     "cena": 54000,
      "cvet": "Серебристый",
      "hex": "#e2e4e7",
      "en": "Silver",
@@ -848,21 +904,21 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 42000,
+     "cena": 43000,
      "cvet": "Розовый",
      "hex": "#f1c7cf",
      "en": "Pink",
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-2022-hero-pink-wifi-select?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 42000,
+     "cena": 43000,
      "cvet": "Серебристый",
      "hex": "#e2e4e7",
      "en": "Silver",
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-2022-hero-silver-wifi-select?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 42000,
+     "cena": 43000,
      "cvet": "Голубой",
      "hex": "#a9c6e8",
      "en": "Blue",
@@ -879,7 +935,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 76700,
+     "cena": 76000,
      "cvet": "Чёрный и бордовый",
      "hex": "#3d1d25",
      "en": "Black Burgundy",
@@ -896,7 +952,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 58800,
+     "cena": 59000,
      "cvet": "Чёрный",
      "hex": "#2b2b2d",
      "en": "Black",
@@ -913,7 +969,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 16300,
+     "cena": 18500,
      "hex": "#f4f4f2",
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/airpods-5-wcc-select-202609_FV1?wid=360&hei=360&fmt=png-alpha"
     }
@@ -928,7 +984,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 14700,
+     "cena": 17000,
      "hex": "#f4f4f2",
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/airpods-5-select-202609_FV1?wid=360&hei=360&fmt=png-alpha"
     }
@@ -943,7 +999,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 12600,
+     "cena": 15000,
      "hex": "#f4f4f2",
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXP93?wid=360&hei=360&fmt=png-alpha"
     }
@@ -958,7 +1014,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 10500,
+     "cena": 13000,
      "hex": "#f4f4f2",
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXP63?wid=360&hei=360&fmt=png-alpha"
     }
@@ -973,7 +1029,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 19500,
+     "cena": 21500,
      "hex": "#f4f4f2",
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/airpods-pro-3-hero-select-202509?wid=360&hei=360&fmt=png-alpha"
     }
@@ -988,14 +1044,14 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 42000,
+     "cena": 43000,
      "cvet": "Сияющая звезда",
      "hex": "#efe6d6",
      "en": "Starlight",
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/airpods-max-select-202409-starlight_FV1?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 42000,
+     "cena": 43000,
      "cvet": "Тёмная ночь",
      "hex": "#2a303c",
      "en": "Midnight",
@@ -1012,14 +1068,14 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 15800,
+     "cena": 18000,
      "cvet": "Белый",
      "hex": "#f4f4f2",
      "en": "White",
      "foto": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r640nzwaxar/gallery/us-galaxy-buds4-r640-sm-r640nzwaxar-551382419?$650_519_PNG$"
     },
     {
-     "cena": 15800,
+     "cena": 18000,
      "cvet": "Чёрный",
      "hex": "#2b2b2d",
      "en": "Black",
@@ -1036,14 +1092,14 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 13200,
+     "cena": 15500,
      "cvet": "Белый",
      "hex": "#f4f4f2",
      "en": "White",
      "foto": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-r540nzwaxar/gallery/us-galaxy-buds4-r540-sm-r540nzwaxar-553270291?$650_519_PNG$"
     },
     {
-     "cena": 13200,
+     "cena": 15500,
      "cvet": "Чёрный",
      "hex": "#2b2b2d",
      "en": "Black",
@@ -1060,20 +1116,20 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 12100,
+     "cena": 14500,
      "cvet": "Обсидиан",
      "hex": "#2a2a2e",
      "en": "Obsidian",
      "foto": "https://lh3.googleusercontent.com/mWyhBNb-7S6Oq9NvbubRCN8PWGjUfkQ6wzfk9kibxlI5chaZ_334IkMR3nM1RxcmZe6S6qH2KJD_v5Mfs-Eum4x1gLkYdr4OiQ=s400"
     },
     {
-     "cena": 11600,
+     "cena": 14000,
      "cvet": "Ягодный",
      "hex": "#a8325a",
      "en": "Berry"
     },
     {
-     "cena": 11600,
+     "cena": 14000,
      "cvet": "Лавандовый",
      "hex": "#c9b8e0",
      "en": "Lavender"
@@ -1089,7 +1145,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 18900,
+     "cena": 21000,
      "hex": "#c8323c",
      "foto": "https://lh3.googleusercontent.com/uXJSNOKfqYhlw-k1KzLNC-rWvduZKejfR1ocUOEYaGMa-MFdvtD7AnJTD3-uqXUsTrBhcOMqmTyqnS-pCybc_tbivQGJ8x080oY=s400"
     }
@@ -1104,14 +1160,14 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 23100,
+     "cena": 25000,
      "cvet": "Чёрный",
      "hex": "#2b2b2d",
      "en": "Black",
      "foto": "https://res.garmin.com/en_PH/products/010-04675-20/v/cf-lg.jpg"
     },
     {
-     "cena": 23100,
+     "cena": 25000,
      "cvet": "Серый",
      "hex": "#8e9196",
      "en": "Gray",
@@ -1128,7 +1184,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 24200,
+     "cena": 26000,
      "hex": "#f4f4f2"
     }
    ]
@@ -1142,21 +1198,21 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 16800,
+     "cena": 19000,
      "cvet": "Чёрный",
      "hex": "#2b2b2d",
      "en": "Black",
      "foto": "https://www.instax.com/mini_evo/common/index/img/img_black_front.png"
     },
     {
-     "cena": 17900,
+     "cena": 20000,
      "cvet": "Коричневый",
      "hex": "#8b5e3c",
      "en": "Brown",
      "foto": "https://www.instax.com/mini_evo/common/index/img/img_brown_front.png"
     },
     {
-     "cena": 21000,
+     "cena": 23000,
      "cvet": "Розовый",
      "hex": "#f1c7cf",
      "en": "Pink"
@@ -1172,14 +1228,14 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 9500,
+     "cena": 12000,
      "cvet": "Фиолетовый",
      "hex": "#b49bd4",
      "en": "Purple",
      "foto": "https://www.instax.com/mini13/assets/images/product_item_main_purple_front.png"
     },
     {
-     "cena": 9500,
+     "cena": 12000,
      "cvet": "Белый",
      "hex": "#f4f4f2",
      "en": "White",
@@ -1196,7 +1252,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 120800,
+     "cena": 118000,
      "hex": "#f4f4f2",
      "pometka": "в наличии 1 шт, есть 2-3 мелкие царапины",
      "foto": "https://www.canon.com.au/-/media/images/news-and-press-releases/30-years-of-powershot-with-g7-x-mark-iii-limited-edition/tile-image-30-years-of-powershot-with-g7-x-mark-iii-limited-edition.jpg"
@@ -1212,7 +1268,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 109200,
+     "cena": 107000,
      "hex": "#f4f4f2",
      "foto": "https://s7d1.scene7.com/is/image/canon/3637C001_powershot-g7-x-mark-iii-black_primary?wid=400"
     }
@@ -1227,7 +1283,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 64100,
+     "cena": 64000,
      "hex": "#f4f4f2",
      "foto": "https://www-cdn.djiits.com/cms/uploads/1f2282e350c2e270bb641937d4b6052a@374*374.png"
     }
@@ -1242,7 +1298,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 39400,
+     "cena": 40500,
      "hex": "#f4f4f2",
      "foto": "https://www-cdn.djiits.com/cms/uploads/6dbcb27e827fa48b25f5e1e7b43e17d7@374*374.png"
     }
@@ -1257,7 +1313,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 9000,
+     "cena": 11500,
      "hex": "#f4f4f2",
      "foto": "https://www-cdn.djiits.com/cms/uploads/05b06923ce2df67d638f0561298b2e51@374*374.png"
     }
@@ -1272,7 +1328,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 6900,
+     "cena": 9500,
      "hex": "#f4f4f2",
      "foto": "https://gmedia.playstation.com/is/image/SIEPDC/dualsense-controller-product-thumbnail-01-en-14sep21?fmt=png-alpha&wid=400"
     }
@@ -1287,7 +1343,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 133400,
+     "cena": 130000,
      "hex": "#f4f4f2",
      "pometka": "ревизия 2",
      "foto": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-pro-dualsense-image-block-01-en-16aug24?wid=400"
@@ -1303,7 +1359,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 74600,
+     "cena": 74000,
      "hex": "#f4f4f2",
      "pometka": "ревизия 2",
      "foto": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-slim-edition-left-image-block-01-en-24jun24?wid=400"
@@ -1319,7 +1375,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 35700,
+     "cena": 37000,
      "cvet": "Чёрная оправа, зелёные линзы",
      "hex": "#24382c",
      "en": "Black/Green",
@@ -1337,7 +1393,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 31500,
+     "cena": 33000,
      "cvet": "Чёрная оправа, зелёные линзы",
      "hex": "#24382c",
      "en": "Black/Green",
@@ -1354,14 +1410,14 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 8400,
+     "cena": 11000,
      "cvet": "Чёрный",
      "hex": "#2b2b2d",
      "en": "Black",
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXK63?wid=360&hei=360&fmt=png-alpha"
     },
     {
-     "cena": 8400,
+     "cena": 11000,
      "cvet": "Белый",
      "hex": "#f4f4f2",
      "en": "White",
@@ -1378,7 +1434,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 7400,
+     "cena": 10000,
      "hex": "#f4f4f2",
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MUWA3?wid=360&hei=360&fmt=png-alpha"
     }
@@ -1393,7 +1449,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 11100,
+     "cena": 13500,
      "hex": "#f4f4f2",
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MX2D3?wid=360&hei=360&fmt=png-alpha"
     }
@@ -1408,7 +1464,7 @@ window.KATALOG = {
    "cpo": "",
    "var": [
     {
-     "cena": 9500,
+     "cena": 12000,
      "hex": "#f4f4f2",
      "foto": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MU8F2?wid=360&hei=360&fmt=png-alpha"
     }
